@@ -1,0 +1,8 @@
+Docs/notes.txt
+db.sqlite3
+.vscode
+
+#__pycache__ files to ignore in each dir
+contorg/__pycache__
+core/__pycache__
+core/migrations/__pycache__

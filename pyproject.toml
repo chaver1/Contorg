@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "contorg"
+version = "0.1.0"
+description = "content organization website which allows you to track
+thigns such as movies, television, literature, comics, art, and whatever else
+you may be interested in organizing"
+authors = ["Grant Solomon <no_email>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+django = "^4.1.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

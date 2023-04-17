@@ -1,0 +1,59 @@
+/* Headings and Paragraph Styling*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: black;
+    font-size: 16px
+}
+
+h3 {
+    color: black;
+    font-size: 14px
+}
+
+p {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/*Header/Primary Navbar Styling*/
+.site-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: blue;
+    color: white;
+}
+
+.logo {
+    color: white;
+    font-size: 32px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+
+.menu li{
+    padding: 5px 14px;
+}
+
+.nav-list li:hover {
+    background-color: white;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
